@@ -14,14 +14,28 @@ n = 151. We want to find out if it is a prime number. <br>
 151 is a prime number because every prime, with square <=151, doesn't divide 151. <br>
 ---
 
-*Find prime number between 2 and k (extrems inluded),
-with and without Sieve of Eratosthenes*
+**Given a number k >= 2, find out if it is prime.**
 
 Input:
-100
+2
+3
+4
+5
+6
+7
+8
+9
+...
 
 Output:
-2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
-
+True
+True
+False
+True
+False
+True
+False
+False
+...
 
 N.B. 1 is not prime.
