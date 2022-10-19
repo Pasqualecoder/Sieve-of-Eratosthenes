@@ -7,5 +7,7 @@ def is_prime(n):
     return True
 
 if __name__ == "__main__":
-    k = int(input("Insert k (>=2)"))
-    print(is_prime(k))
+    test_cases = int(input())
+    for i in range(test_cases):
+        k = int(input())
+        print(k, is_prime(k))

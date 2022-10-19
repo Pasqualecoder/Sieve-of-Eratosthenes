@@ -15,27 +15,34 @@ n = 151. We want to find out if it is a prime number. <br>
 ---
 
 **Given a number k >= 2, find out if it is prime.**
+The first line is the number of test cases.
 
-Input:
-2
-3
-4
-5
-6
-7
-8
-9
-...
+(N.B. 1 is not prime) <br>
 
-Output:
-True
-True
-False
-True
-False
-True
-False
-False
-...
+Input sample:
 
-N.B. 1 is not prime.
+8 <br>
+2 <br>
+3 <br>
+4 <br>
+5 <br>
+6 <br>
+7 <br>
+8 <br>
+9 <br>
+
+<br>
+
+Sample Output:
+
+2 True <br>
+3 True <br>
+4 False <br>
+5 True <br>
+6 False <br>
+7 True <br>
+8 False <br>
+9 False <br>
+
+
+There is a new line in the end

@@ -14,24 +14,6 @@ bool is_prime(long long n)
     return true;
 }
 
-bool sieve(long long n)
-{
-    long long i = 2;
-    while (i * i <= n)
-    {
-        if (n % i == 0)
-        {
-            return false; // the number is NOT prime
-        }
-
-        do
-        {
-            i++;
-        } while (!is_prime(i));
-    }
-    return true; // the number is prime
-}
-
 int main()
 {
     int test_cases;
@@ -41,7 +23,7 @@ int main()
     while (test_cases--)
     {
         scanf("%lld", &k);
-        printf("%d %s\n", k, sieve(k) ? "True" : "False");
+        printf("%d %s\n", k, is_prime(k) ? "True" : "False");
     }
 
     return 0;
